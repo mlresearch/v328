@@ -1,0 +1,105 @@
+---
+booktitle: Conference on Parsimony and Learning
+shortname: CPAL
+volume: '328'
+year: '2026'
+start: &1 2026-03-23
+end: 2026-03-26
+published: 2026-04-06
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: CPAL2026
+month: 0
+cycles: false
+bibtex_editor: Burkholz, Rebekka and Liu, Shiwei and Ravishankar, Saiprasad and Redman,
+  William and Huang, Wei and Su, Weijie and Zhu, Zhihui
+editor:
+- given: Rebekka
+  family: Burkholz
+- given: Shiwei
+  family: Liu
+- given: Saiprasad
+  family: Ravishankar
+- given: William
+  family: Redman
+- given: Wei
+  family: Huang
+- given: Weijie
+  family: Su
+- given: Zhihui
+  family: Zhu
+title: Proceedings of Machine Learning Research
+description: |
+  Conference on Parsimony and Learning
+    Held in T{\"u}bingen, Germany on 23-26 March 2026
+
+  Published as Volume 328 by the Proceedings of Machine Learning Research on 06 April 2026.
+
+  Volume Edited by:
+    Rebekka Burkholz
+    Shiwei Liu
+    Saiprasad Ravishankar
+    William Redman
+    Wei Huang
+    Weijie Su
+    Zhihui Zhu
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 23--26 Mar
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v328"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v328
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v328
+email: ''
+conference:
+  name: Third Conference on Parsimony and Learning
+  url: https://cpal.cc
+  location: Tübingen, Germany
+  dates:
+  - *1
+  - 2026-03-24
+  - 2026-03-25
+  - 2026-03-26
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: CPAL26_clean.bib
+# Site settings
+# Original source:  CPAL26_clean.bib
